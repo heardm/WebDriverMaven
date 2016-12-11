@@ -19,7 +19,7 @@ public class LoginTest {
 	public void doLogin() throws InterruptedException
 	{
 		driver.get("http://gmail.com");
-		driver.findElement(By.id("Email")).sendKeys("aaa@gmail.com");
+		driver.findElement(By.id("Email")).sendKeys("bbbbbb@gmail.com");
 		Thread.sleep(2000L);
 		
 	}
